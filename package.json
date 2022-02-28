@@ -1,0 +1,8 @@
+{
+    "name": "FRS",
+    "version": "0.0.1",
+    "description": "A single-player experiment on Facial image recognition",
+    "author": "Can Celebi <cnelebi@gmail.com>",
+    "license": "MIT/X11",
+    "homepage": "http://nodegame.org"
+}
