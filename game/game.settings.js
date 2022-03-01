@@ -28,20 +28,16 @@ module.exports = {
      * If a step name is found here, then the value of the property is
      * used to initialize the game timer for the step.
      */
-    TIMER: {
-        guess: 10000
-    },
-
-    // # Game specific properties
-
-    // Number of game rounds to repeat.
-    ROUNDS: 4,
-
-    // Number of coins available each round.
-    COINS: 1,
-
-    // Exchange rate coins to dollars.
-    EXCHANGE_RATE: 1,
+    // TIMER: {
+    //     guess: 10000
+    // },
+    //
+    // // # Game specific properties
+    //
+    // // Number of game rounds to repeat.
+    // ROUNDS: 10,
+    //
+    // guess: 3000,
 
     // # Treatments definition.
 
@@ -53,14 +49,19 @@ module.exports = {
 
     treatments: {
 
-        standard: {
-            description: "asldkjasldkaj "
-        },
+        // t1: {
+        //     description: "asldkjasldkaj ",
+        //     guess: 1000
+        // },
 
-        pressure: {
-            description: "123123123",
-            guess: 5000
-        }
+        // t2: {
+        //     description: "123123123",
+        //     guess: 2000
+        // }
+
+        // t1: {},
+
+        t2:{}
 
     }
 };

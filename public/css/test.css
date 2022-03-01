@@ -1,0 +1,20 @@
+.center-column
+{
+    /* height:90vh; */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color:green;
+}
+.center-row
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.main-window
+{
+    /* height:84vh; */
+    width:90%;
+    background-color:black;
+}
